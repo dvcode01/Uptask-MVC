@@ -1,0 +1,46 @@
+@use 'sass:color';
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.listado-proyectos{
+    padding: 0;
+    margin-top: 3rem;
+    list-style: none;
+
+    @include m.grid(1, 2rem);
+
+    @include m.tablet{
+        @include m.grid(2, 2rem);
+    }
+
+    @include m.desktop{
+        @include m.grid(3, 2rem);
+    }
+
+    .proyecto{
+        display: flex;
+        padding: 2rem;
+        line-height: 2;
+        min-height: 12rem;
+        align-items: center;
+        border-radius: 0.5rem;
+        transition: background-color 400ms ease-in;
+        background-color: color.adjust( v.$indigo, $lightness: 5%);
+
+        &:hover{
+            background-color: color.adjust( v.$indigo, $lightness: -5%);
+        }
+
+        a{
+            color: v.$blanco;
+        }
+    }
+}
+
+.no-proyectos{
+
+    a{
+        color: v.$indigo;
+    }
+}
+

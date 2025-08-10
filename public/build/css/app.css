@@ -1,0 +1,1282 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  min-height: 100%;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor-sm {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Inter", sans-serif;
+  margin: 0 0 2.5rem 0;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #6b7280;
+  line-height: 1.8;
+}
+
+.tagline {
+  font-size: 3rem;
+  color: #000;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.descripcion-pagina {
+  text-align: center;
+}
+
+/** Media Queries **/
+.formulario {
+  margin-top: 5rem;
+}
+.formulario .campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.formulario .campo label {
+  flex: 0 0 10rem;
+}
+.formulario .campo input {
+  flex: 1;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(174.6595744681, 179.0531914894, 187.8404255319);
+}
+
+.acciones {
+  margin: 5rem 0;
+}
+@media (min-width: 768px) {
+  .acciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.acciones a {
+  display: block;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .acciones a {
+    margin-bottom: 0;
+  }
+}
+.acciones a:last-of-type {
+  margin-bottom: 0;
+}
+
+.alerta {
+  font-weight: 900;
+  max-width: 80rem;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  padding: 1rem 1rem 1rem 2rem;
+}
+.alerta.error {
+  color: rgb(169, 0, 0);
+  border-left: 0.5rem solid rgb(169, 0, 0);
+  background-color: rgb(255, 153.7, 153.7);
+}
+.alerta.exito {
+  color: rgb(0, 120, 0);
+  border-left: 0.5rem solid rgb(0, 120, 0);
+  background-color: rgb(104.7, 255, 104.7);
+}
+
+.login {
+  margin-top: 5rem;
+}
+.login .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #0891B2 0%, rgb(91.3548387097, 217.3064516129, 247.6451612903) 100%);
+}
+@media (min-width: 768px) {
+  .login .uptask {
+    font-size: 10rem;
+  }
+}
+.login input[type=submit] {
+  background-color: #0891B2;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .login input[type=submit] {
+    width: auto;
+  }
+}
+.login input[type=submit]:hover {
+  background-color: rgb(5.8064516129, 105.2419354839, 129.1935483871);
+  cursor: pointer;
+}
+.login .acciones a {
+  color: #0891B2;
+}
+
+.crear {
+  margin-top: 5rem;
+}
+.crear .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #7C3AED 0%, rgb(217.223255814, 198.1906976744, 249.8093023256) 100%);
+}
+@media (min-width: 768px) {
+  .crear .uptask {
+    font-size: 10rem;
+  }
+}
+.crear input[type=submit] {
+  background-color: #7C3AED;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .crear input[type=submit] {
+    width: auto;
+  }
+}
+.crear input[type=submit]:hover {
+  background-color: rgb(95.3302325581, 20.4279069767, 223.5720930233);
+  cursor: pointer;
+}
+.crear .acciones a {
+  color: #7C3AED;
+}
+
+.olvide {
+  margin-top: 5rem;
+}
+.olvide .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #DB2777 0%, rgb(240.8571428571, 170.1428571429, 201.5714285714) 100%);
+}
+@media (min-width: 768px) {
+  .olvide .uptask {
+    font-size: 10rem;
+  }
+}
+.olvide input[type=submit] {
+  background-color: #DB2777;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .olvide input[type=submit] {
+    width: auto;
+  }
+}
+.olvide input[type=submit]:hover {
+  background-color: rgb(177.4285714286, 29.5714285714, 95.2857142857);
+  cursor: pointer;
+}
+.olvide .acciones a {
+  color: #DB2777;
+}
+
+.reestablecer {
+  margin-top: 5rem;
+}
+.reestablecer .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #2563EB 0%, rgb(177.1428571429, 199.2857142857, 247.8571428571) 100%);
+}
+@media (min-width: 768px) {
+  .reestablecer .uptask {
+    font-size: 10rem;
+  }
+}
+.reestablecer input[type=submit] {
+  background-color: #2563EB;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .reestablecer input[type=submit] {
+    width: auto;
+  }
+}
+.reestablecer input[type=submit]:hover {
+  background-color: rgb(18.5714285714, 76.1428571429, 202.4285714286);
+  cursor: pointer;
+}
+.reestablecer .acciones a {
+  color: #2563EB;
+}
+
+.mensaje {
+  margin-top: 5rem;
+}
+.mensaje .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #F59E0B 0%, rgb(251.0236220472, 216.4291338583, 157.9763779528) 100%);
+}
+@media (min-width: 768px) {
+  .mensaje .uptask {
+    font-size: 10rem;
+  }
+}
+
+.confirmar {
+  margin-top: 5rem;
+}
+.confirmar .uptask {
+  font-size: 7rem;
+  color: transparent;
+  text-align: center;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #4338CA 0%, rgb(181.1428571429, 176.8214285714, 234.1785714286) 100%);
+}
+@media (min-width: 768px) {
+  .confirmar .uptask {
+    font-size: 10rem;
+  }
+}
+.confirmar .acciones {
+  justify-content: center;
+}
+.confirmar .acciones a {
+  color: #4338CA;
+}
+
+.dashboard {
+  background-color: #f3f4f6;
+}
+@media (min-width: 768px) {
+  .dashboard {
+    height: 100vh;
+    display: flex;
+  }
+}
+.dashboard .principal {
+  flex: 1;
+  overflow-y: scroll;
+}
+.dashboard .contenido {
+  padding: 2rem;
+}
+.dashboard .contenido .nombre-pagina {
+  font-size: 2.8rem;
+  text-align: center;
+}
+.dashboard .formulario input:not([type=submit]) {
+  background-color: #FFFFFF;
+}
+.dashboard .formulario input[type=submit] {
+  background-color: #4338CA;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .dashboard .formulario input[type=submit] {
+    width: auto;
+  }
+}
+.dashboard .formulario input[type=submit]:hover {
+  background-color: rgb(52.5714285714, 43.5357142857, 163.4642857143);
+  cursor: pointer;
+}
+.dashboard .formulario input.btn-proyecto {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.enlace {
+  color: #4338CA;
+}
+.enlace:hover {
+  color: rgb(39.619047619, 32.8095238095, 123.1904761905);
+}
+
+.sidebar {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 500ms;
+  background-color: #4338CA;
+}
+.sidebar.mostrar {
+  inset: 0;
+  opacity: 1;
+  height: 100%;
+  padding: 2rem;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+@media (min-width: 768px) {
+  .sidebar.mostrar {
+    display: none;
+  }
+}
+.sidebar.ocultar {
+  opacity: 0;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    opacity: 1;
+    height: 100%;
+    padding: 2rem;
+    overflow: visible;
+    background-color: #4338CA;
+  }
+}
+.sidebar .contenedor-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar .contenedor-sidebar .cerrar-menu {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.sidebar .contenedor-sidebar .cerrar-menu img:hover {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .sidebar .contenedor-sidebar .cerrar-menu {
+    display: none;
+  }
+}
+.sidebar .contenedor-sidebar h2 {
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
+}
+.sidebar .sidebar-nav {
+  margin-top: 5rem;
+}
+.sidebar .sidebar-nav a {
+  display: block;
+  color: #FFFFFF;
+  padding: 0.7rem;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 300ms ease;
+}
+.sidebar .sidebar-nav a:hover, .sidebar .sidebar-nav a.activo {
+  background-color: rgb(52.5714285714, 43.5357142857, 163.4642857143);
+}
+@media (min-width: 768px) {
+  .sidebar .sidebar-nav a {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+}
+.sidebar .cerrar-sesion-mobile {
+  margin-top: 18rem;
+}
+.sidebar .cerrar-sesion-mobile .cerrar-sesion {
+  border-radius: 0.5rem;
+  background-color: #4338CA;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .sidebar .cerrar-sesion-mobile .cerrar-sesion {
+    width: auto;
+  }
+}
+.sidebar .cerrar-sesion-mobile .cerrar-sesion:hover {
+  background-color: rgb(52.5714285714, 43.5357142857, 163.4642857143);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .sidebar .cerrar-sesion-mobile {
+    display: none;
+  }
+}
+
+.barra-mobile {
+  display: flex;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: #4338CA;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .barra-mobile {
+    display: none;
+  }
+}
+.barra-mobile h1 {
+  margin: 0;
+  color: #FFFFFF;
+}
+.barra-mobile .menu img {
+  width: 0.8rem;
+}
+.barra-mobile .menu img:hover {
+  cursor: pointer;
+}
+
+.barra {
+  display: none;
+}
+@media (min-width: 768px) {
+  .barra {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    box-shadow: 1px 12px 9px -13px rgba(0, 0, 0, 0.3);
+  }
+}
+.barra p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.barra p span {
+  font-weight: 700;
+  color: #4338CA;
+}
+.barra .cerrar-sesion {
+  background-color: rgb(39.619047619, 32.8095238095, 123.1904761905);
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .barra .cerrar-sesion {
+    width: auto;
+  }
+}
+.barra .cerrar-sesion:hover {
+  background-color: rgb(26.6666666667, 22.0833333333, 82.9166666667);
+  cursor: pointer;
+}
+.barra .cerrar-sesion.small {
+  padding: 1rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.listado-proyectos {
+  padding: 0;
+  margin-top: 3rem;
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .listado-proyectos {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .listado-proyectos {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.listado-proyectos .proyecto {
+  display: flex;
+  padding: 2rem;
+  line-height: 2;
+  min-height: 12rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: background-color 400ms ease-in;
+  background-color: rgb(86.0238095238, 76.1369047619, 207.3630952381);
+}
+.listado-proyectos .proyecto:hover {
+  background-color: rgb(59.0476190476, 48.8988095238, 183.6011904762);
+}
+.listado-proyectos .proyecto a {
+  color: #FFFFFF;
+}
+
+.no-proyectos a {
+  color: #4338CA;
+}
+
+.contenedor-nueva-tarea {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-nueva-tarea .agregar-tarea {
+  background-color: #0891B2;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .contenedor-nueva-tarea .agregar-tarea {
+    width: auto;
+  }
+}
+.contenedor-nueva-tarea .agregar-tarea:hover {
+  background-color: rgb(5.8064516129, 105.2419354839, 129.1935483871);
+  cursor: pointer;
+}
+
+.listado-tareas {
+  padding: 0;
+  margin-top: 3rem;
+  list-style: none;
+}
+.listado-tareas .no-tareas {
+  text-align: center;
+}
+
+.tarea {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(228.4285714286, 230.6428571429, 235.0714285714);
+}
+.tarea:last-of-type {
+  border: none;
+}
+.tarea p {
+  font-size: 1.5rem;
+}
+.tarea .opciones {
+  display: flex;
+  gap: 1.2rem;
+}
+.tarea .opciones button {
+  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tarea .opciones .completada {
+  color: #FFFFFF;
+  background-color: #2563EB;
+}
+.tarea .opciones .pendiente {
+  color: #FFFFFF;
+  background-color: #F59E0B;
+}
+.tarea .opciones .eliminar-tarea {
+  color: #FFFFFF;
+  background-color: rgb(169, 0, 0);
+}
+
+.modal {
+  inset: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal .formulario {
+  opacity: 0;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  transform: translateY(-30rem);
+  transition: transform 700ms ease-in, opacity 400ms ease-in;
+}
+.modal .formulario legend {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.modal .formulario input[type=text] {
+  border-radius: 0.5rem;
+  border: 1px solid #6b7280;
+}
+.modal .formulario.show {
+  top: 50%;
+  opacity: 1;
+  position: relative;
+  transform: translateY(-50%);
+}
+.modal .formulario.close {
+  opacity: 0;
+  transform: translateY(-200%);
+}
+.modal .formulario .opciones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal .formulario .submit-tarea {
+  background-color: #4338CA;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal .formulario .submit-tarea {
+    width: auto;
+  }
+}
+.modal .formulario .submit-tarea:hover {
+  background-color: rgb(52.5714285714, 43.5357142857, 163.4642857143);
+  cursor: pointer;
+}
+.modal .formulario .cerrar-modal {
+  background-color: #F59E0B;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal .formulario .cerrar-modal {
+    width: auto;
+  }
+}
+.modal .formulario .cerrar-modal:hover {
+  background-color: rgb(196.9291338583, 126.7125984252, 8.0708661417);
+  cursor: pointer;
+}
+
+.filtros {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+}
+.filtros h3 {
+  color: #4338CA;
+  font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+  .filtros h3 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .filtros .filtros-inputs {
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+  }
+}
+.filtros .campo {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .filtros .campo {
+    margin-bottom: 0;
+  }
+}
+.filtros input[type=radio] {
+  accent-color: #4338CA;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2c2c3b;
+  }
+  .tagline, .formulario label,
+  .login .acciones a,
+  .crear .acciones a,
+  .olvide .acciones a {
+    color: #FFFFFF;
+  }
+  .descripcion-pagina,
+  .formulario .campo input,
+  .nombre-pagina {
+    color: #f3f4f6;
+  }
+  .formulario .campo input {
+    background-color: rgb(76.6796116505, 76.6796116505, 102.8203883495);
+  }
+  .formulario .campo input::placeholder {
+    color: rgb(228.4285714286, 230.6428571429, 235.0714285714);
+  }
+  .alerta.error {
+    background-color: #FFFFFF;
+  }
+}
+@media (prefers-color-scheme: dark) and (min-width: 768px) {
+  .sidebar {
+    background-color: rgb(33.1067961165, 33.1067961165, 44.3932038835);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .sidebar .sidebar-nav a.activo, .sidebar .sidebar-nav a:hover {
+    background-color: #F59E0B;
+  }
+  .barra, .barra-mobile {
+    background-color: rgb(28.7495145631, 28.7495145631, 38.5504854369);
+  }
+  .barra p {
+    color: #f3f4f6;
+  }
+  .barra p span {
+    color: #F59E0B;
+  }
+  .barra .cerrar-sesion {
+    background-color: #F59E0B;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+}
+@media (prefers-color-scheme: dark) and (min-width: 768px) {
+  .barra .cerrar-sesion {
+    width: auto;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .barra .cerrar-sesion:hover {
+    background-color: rgb(196.9291338583, 126.7125984252, 8.0708661417);
+    cursor: pointer;
+  }
+  .barra .cerrar-sesion .small {
+    padding: 1rem;
+  }
+  .filtros {
+    background-color: rgb(65.786407767, 65.786407767, 88.213592233);
+  }
+  .filtros h3, .filtros label {
+    color: #FFFFFF;
+  }
+  .filtros input[type=radio] {
+    accent-color: #F59E0B;
+  }
+  .dashboard {
+    background-color: #2c2c3b;
+  }
+  .dashboard .enlace {
+    color: #f3f4f6;
+  }
+  .dashboard .enlace:hover {
+    color: rgb(184.7142857143, 190.5714285714, 202.2857142857);
+  }
+  .dashboard .formulario input:not([type=submit]) {
+    background-color: rgb(87.572815534, 87.572815534, 117.427184466);
+  }
+  .dashboard .formulario input:not([type=submit]):focus {
+    outline: 2px solid rgb(22.213592233, 22.213592233, 29.786407767);
+  }
+  .dashboard .formulario input:not([type=submit])::placeholder {
+    color: rgb(228.4285714286, 230.6428571429, 235.0714285714);
+  }
+  .listado-proyectos .proyecto {
+    background-color: rgb(87.572815534, 87.572815534, 117.427184466);
+  }
+  .listado-proyectos .proyecto:hover {
+    background-color: rgb(76.6796116505, 76.6796116505, 102.8203883495);
+  }
+  .listado-tareas .tarea {
+    border: none;
+    background-color: rgb(65.786407767, 65.786407767, 88.213592233);
+  }
+  .listado-tareas .tarea p {
+    color: #f3f4f6;
+  }
+  .modal .formulario {
+    background-color: #2c2c3b;
+  }
+  .modal .formulario legend {
+    color: #f3f4f6;
+  }
+  .modal .formulario input[type=text] {
+    border: none;
+    color: #FFFFFF;
+    background-color: rgb(87.572815534, 87.572815534, 117.427184466);
+  }
+  .modal .formulario input[type=text]:focus {
+    outline: 2px solid rgb(22.213592233, 22.213592233, 29.786407767);
+  }
+  .modal .formulario input[type=text]::placeholder {
+    color: rgb(228.4285714286, 230.6428571429, 235.0714285714);
+  }
+}/*# sourceMappingURL=app.css.map */
